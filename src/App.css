@@ -1,0 +1,183 @@
+nav .container {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 80px;
+  padding-bottom: 0;
+}
+.links {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: start;
+  list-style: none;
+}
+.links a {
+  text-decoration: none;
+  color: #333333;
+}
+.hero .container {
+  position: relative;
+}
+.hero .container .heroMainImg {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  top: -150px;
+  right: -50px;
+}
+.heroMainImg img {
+  width: 100%;
+}
+.heroMain {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 80px;
+}
+.numCol {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  flex-direction: column;
+  gap: 65px;
+  border-left: 1px solid #5b5958;
+  padding-left: 40px;
+  padding-top: 20px;
+  position: relative;
+}
+.numCol::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 3px;
+  background-color: black;
+  height: 50px;
+}
+.numCol p {
+  color: #5b5958;
+}
+.activeNum {
+  font-size: 24px;
+  font-weight: 500;
+  color: black !important;
+}
+.heroText {
+  width: 650px;
+}
+.heroText h1 {
+  font-size: 45px;
+  color: #2d2b2c;
+  font-weight: 800;
+  line-height: 43px;
+  padding-bottom: 10px;
+}
+.heroText p {
+  color: #5b5958;
+  font-size: 16px;
+  font-weight: 300;
+  width: 420px;
+  padding-bottom: 20px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  border: 2px solid #787878;
+  padding: 10px;
+  border-radius: 12px;
+}
+.counter button {
+  width: 30px !important;
+  height: 30px !important;
+  font-size: 24px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #2d2b2c;
+  color: white;
+  font-weight: 600;
+  justify-content: center;
+  border-radius: 8px;
+}
+.counter button:hover {
+  background-color: #515151;
+}
+.counter button:active {
+  background-color: #1e1d1d;
+}
+.counter p {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.price p {
+  padding: 0;
+  width: fit-content;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.addBag {
+  padding: 16px 45px;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  background-color: #2d2b2c;
+  border: none;
+}
+.heroProducts {
+  width: 100%;
+  padding: 18px 0;
+  background-color: #ede8e6;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.heroProducts .container {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainProducts {
+  display: flex;
+  gap: 24px;
+}
+.watchVideo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.videoIcon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 50%;
+  color: #877c78;
+  border: 3px solid #877c78;
+}
+.watchVideo p {
+  color: #877c78;
+  font-size: 20px;
+}
