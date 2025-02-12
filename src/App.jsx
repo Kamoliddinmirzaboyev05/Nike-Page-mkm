@@ -12,7 +12,7 @@ function App() {
         <nav>
           <div className="container">
             <div className="logo">
-              <img src="/public/logo.svg" alt="" />
+              <img src="/logo.svg" alt="" />
             </div>
             <ul className="links">
               <li>
@@ -33,7 +33,7 @@ function App() {
         <div className="hero">
           <div className="container">
             <div className="heroMainImg">
-              <img src="/public/mainImg.png" alt="" />
+              <img src="/mainImg.png" alt="" />
             </div>
             <div className="heroMain">
               <div className="numCol">
@@ -67,13 +67,13 @@ function App() {
             <div className="container">
               <div className="mainProducts">
                 <div className="productImg">
-                  <img src="/public/img1.png" alt="" />
+                  <img src="/img1.png" alt="" />
                 </div>
                 <div className="productImg">
-                  <img src="/public/img2.png" alt="" />
+                  <img src="/img2.png" alt="" />
                 </div>
                 <div className="productImg">
-                  <img src="/public/img3.png" alt="" />
+                  <img src="/img3.png" alt="" />
                 </div>
               </div>
               <div className="watchVideo">
