@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter";
+  transition: all .5s ease;
 }
 body {
   width: 100%;
@@ -21,7 +22,6 @@ header {
   background-color: #e4dfdc;
   border-radius: 30px;
   border: 4px solid white;
-  /* overflow: hidden; */
 }
 .container {
   width: 1200px;
